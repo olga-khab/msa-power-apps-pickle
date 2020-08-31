@@ -14,19 +14,23 @@ To study the context of the proposed app and try to understand target users, it 
 
 ### Technologies
 
-### Target persona
+## Target persona
 Before jumping to the target persona, it should be noted that, ideally, the process of creating a persona would involve the target users themselves, for example through surveys and user stories. At this stage, this is not possible but any further development should definitely involve a more user-centric approach.
 
 Based on PACT analysis, our target persona looks something like this:
 
-* James, 25, is a junior marketing specialist at large tech company in Sydney. He has been at this company for three years, ever since he graguated. He knows his business unit and occasionally grabs a lunch with his team or one or two of his close colleagues. 
-* James is tech-savvy and spends a lot of time on his phone. He Facebook, Instagram and LinkedIn daily, and he occaionaly uses Snapchat to check his friends' stories. From time to time, he uses dating apps (he's tried both Tinder and Bumble).
-* James likes meeting new people but often lacks the courage to approach someone in the workplace. Although the company culture is friendly and welcoming, James finds himself unable to .... as he doesn't want to bother busy people or senior colleagues he doesn't know well. He expects a lot of people at the company feel the same way.
+* James, 25, is a junior marketing specialist at large tech company in Sydney. He has been at this company for three years, ever since he graguated. 
+* James is tech-savvy and spends a lot of time on his phone. He checks Facebook, Instagram and LinkedIn daily on his smartphone on the way to work, during the day when he get bored and in the evening. He sometimes uses Snapchat to check his friends' stories. From time to time, he uses dating apps; he's tried both Tinder and Bumble.
+* James socialises with his colleagues regularly, ususally by grabbing a coffe after the morning standup and occasionally over lunch. He likes to chat to his immediate teammates during the day always attends lunch-and-learns when he has the time.
 
-What he wants to do (problem statement)
-
-Craft and describe the target persona for your app (approx. 10 – 50 words) – this could be yourself or a made-up person. Describe how your app will target / aid this particular persona (approx. 100 – 200 words). Good descriptions will include the following:
-
+James's problem: 
 o The persona’s current situation/problem. Consider what their journey or tasks looks like without the app.
 
+* James likes meeting new people but often lacks the courage to approach someone he doesn't know well in the workplace. Although the company culture is friendly and welcoming, James finds himself unable to .... as he doesn't want to bother busy people or senior colleagues he doesn't know well. He expects a lot of people at the company feel the same way. He knows most people in his business unit and occasionally grabs a lunch with his team or one or two of his close colleagues. He finds himself having solitary lunches often due to everyones' differnt schedules and he wishes there was an easy way to meet someone outside his immediate business unit just for a chat - he is very curious about what the other departments are like. 
+
+From time to time he has a specialist question...
+
+
+The proposed app will address James's issues as follows:
 o Detail your app will satisfy the need/aid the persona, by making references to the specific features and functionalities you’ve included.
+
