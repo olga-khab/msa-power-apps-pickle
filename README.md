@@ -4,7 +4,15 @@
 Pickle is a lucnhtime buddy finder/casulal networking Power App for those who work in big organisations and what to meet new people from different depratmernts or are simply looking for a lunchtime jog buddy.
 
 ## Investigating target users and problem context with PACT analysis
-To study the context of the proposed app and try to understand target users, it is best to use a structured framework like PACT (see [here](http://hci.ilikecake.ie/requirements/pact.htm) for details). PACT framework suggests the app is discussed in the context of **P**eople (target users), relevant **A**ctivities those people undertake, **C**ontext of such activities and **T**echnologies used.
+To study the context of the proposed app and try to understand target users, it is best to use a structured framework like PACT (see [here](http://hci.ilikecake.ie/requirements/pact.htm) for details). PACT framework suggests the app is discussed in the context of **P**eople (target users), relevant **A**ctivities those people undertake, **C**ontext of such activities and **T**echnologies used. I omitted the full analysis to keep this brief but the guiding questions I tried to answer included:
+
+* What motivates, pleases and engages the users, in particular with the current apps they use?
+* What is their level of tech proficiency?
+* Are we looking at frequent or infrequent users?
+* What are the users' goals, tasks and actions?
+* How are they currently performing those tasks? On what devices?
+* Are these activites memorable? Are they done often?
+* What is the social and organisational context of these tasks? How are similar tasks handled in the workplace - this is particularly important to discuss for a social app.
 
 ### People
 
@@ -15,7 +23,7 @@ To study the context of the proposed app and try to understand target users, it 
 ### Technologies
 
 ## Target persona
-Before jumping to the target persona, it should be noted that, ideally, the process of creating a persona would involve the target users themselves, for example through surveys and user stories. At this stage, this is not possible but any further development should definitely involve a more user-centric approach.
+Ideally, the process of creating a persona would involve the target users themselves, for example through surveys and user stories. At this stage, this is not possible but any further development should definitely involve a more user-centric approach.
 
 Based on PACT analysis, our target persona looks something like this:
 
