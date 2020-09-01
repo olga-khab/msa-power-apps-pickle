@@ -6,21 +6,15 @@ Pickle is a lucnhtime buddy finder/casulal networking Power App for those who wo
 ## Investigating target users and problem context with PACT analysis
 To study the context of the proposed app and try to understand target users, it is best to use a structured framework like PACT (see [here](http://hci.ilikecake.ie/requirements/pact.htm) for details). PACT framework suggests the app is discussed in the context of **P**eople (target users), relevant **A**ctivities those people undertake, **C**ontext of such activities and **T**echnologies used. I omitted the full analysis to keep this brief but the guiding questions I tried to answer included:
 
-* What motivates, pleases and engages the users, in particular with the current apps they use?
+* Who are the users? (Demographics, employment etc.)
 * What is their level of tech proficiency?
+* What motivates, pleases and engages the users, in particular with the current apps they use?
 * Are we looking at frequent or infrequent users?
 * What are the users' goals, tasks and actions?
 * How are they currently performing those tasks? On what devices?
 * Are these activites memorable? Are they done often?
 * What is the social and organisational context of these tasks? How are similar tasks handled in the workplace - this is particularly important to discuss for a social app.
-
-### People
-
-### Activities
-
-### Context
-
-### Technologies
+* What are the typical types of media/inputs and outputs these users see in other applications?
 
 ## Target persona
 Ideally, the process of creating a persona would involve the target users themselves, for example through surveys and user stories. At this stage, this is not possible but any further development should definitely involve a more user-centric approach.
