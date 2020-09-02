@@ -20,7 +20,7 @@ Ideally, the process of creating a persona would involve the target users themse
 
 Based on PACT analysis, our target persona looks something like this:
 
-<table style="table-layout: fixed; width: 100%;">
+<table>
   <tr>
     <th>Persona </th>
     <th>Description</th>
