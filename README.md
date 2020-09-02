@@ -20,16 +20,6 @@ Ideally, the process of creating a persona would involve the target users themse
 
 Based on PACT analysis, our target persona looks something like this:
 
-Persona                 | Description
------------------------ | -------------
-![stock photo of a young professional](stock-photo-young-professional.jpg) | James, 25, is a junior marketing specialist at large tech company in Sydney. He has been at this company for three years, ever since he graguated.  James is tech-savvy and spends a lot of time on his phone. He checks Facebook, Instagram and LinkedIn daily on his smartphone on the way to work, during the day when he get bored and in the evening. From time to time, he uses dating apps; he's tried both Tinder and Bumble. Internally, he uses Teams and Yammer, mainly to discuss work and contaact people he doesn't know personally to ask specialist questions. He likes the simplicity of these interfaces and finds it easy to remember what to do when he hasn't used them in a long time (especially with the occasional use apps). James socialises with his colleagues regularly, ususally by grabbing a coffe after the morning standup and occasionally over lunch. He likes to chat to his immediate teammates during the day always attends lunch-and-learns when he has the time.
-:----------------------------------------:
-**James's problem**: 
-o The persona’s current situation/problem. Consider what their journey or tasks looks like without the app.
-
-* James likes meeting new people but often lacks the courage to approach someone he doesn't know well in the workplace. Although the company culture is friendly and welcoming, James finds himself unable to .... as he doesn't want to bother busy people or senior colleagues he doesn't know well. He expects a lot of people at the company feel the same way. He knows most people in his business unit and occasionally grabs a lunch with his team or one or two of his close colleagues. He finds himself having solitary lunches often due to everyones' differnt schedules and he wishes there was an easy way to meet someone outside his immediate business unit just for a chat. 
-
-
 <table>
   <tr>
     <th>Persona </th>
@@ -40,7 +30,7 @@ o The persona’s current situation/problem. Consider what their journey or task
     <td>James, 25, is a junior marketing specialist at large tech company in Sydney. He has been at this company for three years, ever since he graguated.  James is tech-savvy and spends a lot of time on his phone. He checks Facebook, Instagram and LinkedIn daily on his smartphone on the way to work, during the day when he get bored and in the evening. From time to time, he uses dating apps; he's tried both Tinder and Bumble. Internally, he uses Teams and Yammer, mainly to discuss work and contaact people he doesn't know personally to ask specialist questions. He likes the simplicity of these interfaces and finds it easy to remember what to do when he hasn't used them in a long time (especially with the occasional use apps). James socialises with his colleagues regularly, ususally by grabbing a coffe after the morning standup and occasionally over lunch. He likes to chat to his immediate teammates during the day always attends lunch-and-learns when he has the time.</td>
   </tr>
   <tr>
-    <td colspan="2">James likes meeting new people but often lacks the courage to approach someone he doesn't know well in the workplace. Although the company culture is friendly and welcoming, James finds himself unable to .... as he doesn't want to bother busy people or senior colleagues he doesn't know well. He expects a lot of people at the company feel the same way. He knows most people in his business unit and occasionally grabs a lunch with his team or one or two of his close colleagues. He finds himself having solitary lunches often due to everyones' differnt schedules and he wishes there was an easy way to meet someone outside his immediate business unit just for a chat.</td>
+    <td colspan="2">James's problem: James likes meeting new people but often lacks the courage to approach someone he doesn't know well in the workplace. Although the company culture is friendly and welcoming, James finds himself unable to .... as he doesn't want to bother busy people or senior colleagues he doesn't know well. He expects a lot of people at the company feel the same way. He knows most people in his business unit and occasionally grabs a lunch with his team or one or two of his close colleagues. He finds himself having solitary lunches often due to everyones' differnt schedules and he wishes there was an easy way to meet someone outside his immediate business unit just for a chat.</td>
   </tr>
 </table>
 
