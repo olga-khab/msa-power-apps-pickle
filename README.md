@@ -19,7 +19,12 @@ To study the context of the proposed app and try to understand target users, it 
 Ideally, the process of creating a persona would involve the target users themselves, for example through surveys and user stories. At this stage, this is not possible but any further development should definitely involve a more user-centric approach.
 
 Based on PACT analysis, our target persona looks something like this:
-
+-------------------|------------------
+image              |
+-------------------|* James, 25, is a junior marketing specialist at large tech company in Sydney. He has been at this company for three years, ever since he   graguated. 
+* James is tech-savvy and spends a lot of time on his phone. He checks Facebook, Instagram and LinkedIn daily on his smartphone on the way to work, during the day when he get bored and in the evening. From time to time, he uses dating apps; he's tried both Tinder and Bumble. Internally, he uses Teams and Yammer, mainly to discuss work and contaact people he doesn't know personally to ask specialist questions. He likes the simplicity of these interfaces and finds it easy to remember what to do when he hasn't used them in a long time (especially with the occasional use apps). 
+* James socialises with his colleagues regularly, ususally by grabbing a coffe after the morning standup and occasionally over lunch. He likes to chat to his immediate teammates during the day always attends lunch-and-learns when he has the time.
+-------------------|------------------
 * James, 25, is a junior marketing specialist at large tech company in Sydney. He has been at this company for three years, ever since he graguated. 
 * James is tech-savvy and spends a lot of time on his phone. He checks Facebook, Instagram and LinkedIn daily on his smartphone on the way to work, during the day when he get bored and in the evening. From time to time, he uses dating apps; he's tried both Tinder and Bumble. Internally, he uses Teams and Yammer, mainly to discuss work and contaact people he doesn't know personally to ask specialist questions. He likes the simplicity of these interfaces and finds it easy to remember what to do when he hasn't used them in a long time (especially with the occasional use apps). 
 * James socialises with his colleagues regularly, ususally by grabbing a coffe after the morning standup and occasionally over lunch. He likes to chat to his immediate teammates during the day always attends lunch-and-learns when he has the time.
