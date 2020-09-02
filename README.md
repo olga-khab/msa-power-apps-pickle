@@ -32,11 +32,11 @@ o The persona’s current situation/problem. Consider what their journey or task
 
 <table>
   <tr>
-    <td>Persona </td>
-    <td>Description</td>
+    <th>Persona </th>
+    <th>Description</th>
   </tr>
   <tr>
-    <td>![stock photo of a young professional](stock-photo-young-professional.jpg)</td>
+    <td><img src="stock-photo-young-professional.jpg" alt="stock photo of a young professional"></td>
     <td>James, 25, is a junior marketing specialist at large tech company in Sydney. He has been at this company for three years, ever since he graguated.  James is tech-savvy and spends a lot of time on his phone. He checks Facebook, Instagram and LinkedIn daily on his smartphone on the way to work, during the day when he get bored and in the evening. From time to time, he uses dating apps; he's tried both Tinder and Bumble. Internally, he uses Teams and Yammer, mainly to discuss work and contaact people he doesn't know personally to ask specialist questions. He likes the simplicity of these interfaces and finds it easy to remember what to do when he hasn't used them in a long time (especially with the occasional use apps). James socialises with his colleagues regularly, ususally by grabbing a coffe after the morning standup and occasionally over lunch. He likes to chat to his immediate teammates during the day always attends lunch-and-learns when he has the time.</td>
   </tr>
   <tr>
