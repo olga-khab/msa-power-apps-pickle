@@ -29,6 +29,18 @@ o The persona’s current situation/problem. Consider what their journey or task
 
 * James likes meeting new people but often lacks the courage to approach someone he doesn't know well in the workplace. Although the company culture is friendly and welcoming, James finds himself unable to .... as he doesn't want to bother busy people or senior colleagues he doesn't know well. He expects a lot of people at the company feel the same way. He knows most people in his business unit and occasionally grabs a lunch with his team or one or two of his close colleagues. He finds himself having solitary lunches often due to everyones' differnt schedules and he wishes there was an easy way to meet someone outside his immediate business unit just for a chat. 
 
+
+<table>
+  <tr>
+    <td>One</td>
+    <td>Two</td>
+  </tr>
+  <tr>
+    <td colspan="2">Three</td>
+  </tr>
+</table>
+
+
 **Specific problems and situations**
 
 * Currently, James doesn't have a way of approaching someone he doesn't know and asking them to get lunch - although they say you should "network" and approach new people, James knows that it doesn't always work and, in reality, some people might find it strange.
