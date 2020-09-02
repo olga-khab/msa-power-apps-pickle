@@ -37,16 +37,16 @@ Based on PACT analysis, our target persona looks something like this:
     <th>App functionality to address it</th>
   </tr>
   <tr>
-    <td>James doesn't have a way of approaching someone he doesn't know and asking them to get lunch - although they say you should "network" and approach new people, James knows that it doesn't always work and, in reality, some people might find it strange.</td><td>solution 1</td>
+    <td>James doesn't have a way of approaching someone he doesn't know and asking them to get lunch - some people might find it strange.</td><td>solution 1</td>
   </tr>
   <tr>
-    <td>James would love to have more opportunities to talk to senior people about advancing his career in general and about potentially moving to a different line of work within the organisation.</td><td>problem 2</td>
+    <td>James would love to have more opportunities to talk to senior people about advancing his career.</td><td>problem 2</td>
   </tr>
   <tr>
-    <td>James loves learning from others and wishes there was a way to casually meet up wit differnt specialists across the organisation, be that to ask some specific questions about an introductory programming course he is taking or just see what the work is like in the rest of the organisation.</td><td>solution 3</td>
+    <td>James loves learning from others and wishes there was a way to casually meet up wit differnt specialists across the organisation, be that to ask some specific questions or just see what the work is like in the rest of the organisation.</td><td>solution 3</td>
   </tr>
   <tr>
-    <td>James goes for lunchtime jogs or gym classes from time to time and would like to have a lunchtime exercise buddy, but he doesn't know anyone who would be interested.</td><td>sol 4</td>
+    <td>James goes for lunchtime jogs or gym classes from time to time and would like to have a lunchtime exercise buddy, but he doesn't know anyone interested.</td><td>sol 4</td>
   </tr>
 </table>
 
