@@ -27,7 +27,14 @@ Based on PACT analysis, our target persona looks something like this:
 **James's problem**: 
 o The persona’s current situation/problem. Consider what their journey or tasks looks like without the app.
 
-* James likes meeting new people but often lacks the courage to approach someone he doesn't know well in the workplace. Although the company culture is friendly and welcoming, James finds himself unable to .... as he doesn't want to bother busy people or senior colleagues he doesn't know well. He expects a lot of people at the company feel the same way. He knows most people in his business unit and occasionally grabs a lunch with his team or one or two of his close colleagues. He finds himself having solitary lunches often due to everyones' differnt schedules and he wishes there was an easy way to meet someone outside his immediate business unit just for a chat - he is curious about what the other departments are like. 
+* James likes meeting new people but often lacks the courage to approach someone he doesn't know well in the workplace. Although the company culture is friendly and welcoming, James finds himself unable to .... as he doesn't want to bother busy people or senior colleagues he doesn't know well. He expects a lot of people at the company feel the same way. He knows most people in his business unit and occasionally grabs a lunch with his team or one or two of his close colleagues. He finds himself having solitary lunches often due to everyones' differnt schedules and he wishes there was an easy way to meet someone outside his immediate business unit just for a chat. 
+
+**Specific problems and situations**
+
+* Currently, James doesn't have a way of approaching someone he doesn't know and asking them to get lunch - although they say you should "network" and approach new people, James knows that it doesn't always work and, in reality, some people might find it strange.
+* James would love to have more opportunities to talk to senior people about advancing his career in general and about potentially moving to a different line of work within the organisation.
+* He also loves learning from others and wishes there was a way to casually meet up wit differnt specialists across the organisation, be that to ask some specific questions about an introductory programming course he is taking or just see what the work is like in the rest of the organisation.
+* James goes for lunchtime jogs or gym classes from time to time and would like to have an exercise buddy, but none of his colleagues are interested in exercising at lunchtime.
 
 From time to time he has a specialist question...
 
