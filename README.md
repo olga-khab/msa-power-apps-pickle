@@ -20,7 +20,7 @@ Ideally, the process of creating a persona would involve the target users themse
 
 Based on PACT analysis, our target persona looks something like this:
 
-<table>
+<table style="table-layout: fixed; width: 100%;">
   <tr>
     <th>Persona </th>
     <th>Description</th>
@@ -33,7 +33,7 @@ Based on PACT analysis, our target persona looks something like this:
     <td colspan="2"><b>James's problem</b>: James likes meeting new people but often lacks the courage to approach someone he doesn't know well in the workplace. Although the company culture is friendly and welcoming, James finds himself unable to .... as he doesn't want to bother busy people or senior colleagues he doesn't know well. He expects a lot of people at the company feel the same way. He knows most people in his business unit and occasionally grabs a lunch with his team or one or two of his close colleagues. He finds himself having solitary lunches often due to everyones' differnt schedules and he wishes there was an easy way to meet someone outside his immediate business unit just for a chat.</td>
   </tr>
   <tr>
-    <th>James's problem</th>
+    <th width="50%">James's problem </th>
     <th>App functionality to address it</th>
   </tr>
   <tr>
