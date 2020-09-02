@@ -36,7 +36,6 @@ o The persona’s current situation/problem. Consider what their journey or task
 * He also loves learning from others and wishes there was a way to casually meet up wit differnt specialists across the organisation, be that to ask some specific questions about an introductory programming course he is taking or just see what the work is like in the rest of the organisation.
 * James goes for lunchtime jogs or gym classes from time to time and would like to have an exercise buddy, but none of his colleagues are interested in exercising at lunchtime.
 
-From time to time he has a specialist question...
 
 
 The proposed app will address James's issues as follows:
