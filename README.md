@@ -30,20 +30,24 @@ Based on PACT analysis, our target persona looks something like this:
     <td>James, 25, is a junior marketing specialist at large tech company in Sydney. He has been at this company for three years, ever since he graguated.  James is tech-savvy and spends a lot of time on his phone. He checks Facebook, Instagram and LinkedIn daily on his smartphone on the way to work, during the day when he get bored and in the evening. From time to time, he uses dating apps; he's tried both Tinder and Bumble. Internally, he uses Teams and Yammer, mainly to discuss work and contaact people he doesn't know personally to ask specialist questions. He likes the simplicity of these interfaces and finds it easy to remember what to do when he hasn't used them in a long time (especially with the occasional use apps). James socialises with his colleagues regularly, ususally by grabbing a coffe after the morning standup and occasionally over lunch. He likes to chat to his immediate teammates during the day always attends lunch-and-learns when he has the time.</td>
   </tr>
   <tr>
-    <td colspan="2">James's problem: James likes meeting new people but often lacks the courage to approach someone he doesn't know well in the workplace. Although the company culture is friendly and welcoming, James finds himself unable to .... as he doesn't want to bother busy people or senior colleagues he doesn't know well. He expects a lot of people at the company feel the same way. He knows most people in his business unit and occasionally grabs a lunch with his team or one or two of his close colleagues. He finds himself having solitary lunches often due to everyones' differnt schedules and he wishes there was an easy way to meet someone outside his immediate business unit just for a chat.</td>
+    <td colspan="2"><b>James's problem</b>: James likes meeting new people but often lacks the courage to approach someone he doesn't know well in the workplace. Although the company culture is friendly and welcoming, James finds himself unable to .... as he doesn't want to bother busy people or senior colleagues he doesn't know well. He expects a lot of people at the company feel the same way. He knows most people in his business unit and occasionally grabs a lunch with his team or one or two of his close colleagues. He finds himself having solitary lunches often due to everyones' differnt schedules and he wishes there was an easy way to meet someone outside his immediate business unit just for a chat.</td>
+  </tr>
+  <tr>
+    <th>James's problem</th>
+    <th>App functionality to address it</th>
+  </tr>
+  <tr>
+    <td>James doesn't have a way of approaching someone he doesn't know and asking them to get lunch - although they say you should "network" and approach new people, James knows that it doesn't always work and, in reality, some people might find it strange.</td><td>solution 1</td>
+  </tr>
+  <tr>
+    <td>James would love to have more opportunities to talk to senior people about advancing his career in general and about potentially moving to a different line of work within the organisation.</td><td>problem 2</td>
+  </tr>
+  <tr>
+    <td>James loves learning from others and wishes there was a way to casually meet up wit differnt specialists across the organisation, be that to ask some specific questions about an introductory programming course he is taking or just see what the work is like in the rest of the organisation.</td><td>solution 3</td>
+  </tr>
+  <tr>
+    <td>James goes for lunchtime jogs or gym classes from time to time and would like to have a lunchtime exercise buddy, but he doesn't know anyone who would be interested.</td><td>sol 4</td>
   </tr>
 </table>
 
-
-**Specific problems and situations**
-
-* Currently, James doesn't have a way of approaching someone he doesn't know and asking them to get lunch - although they say you should "network" and approach new people, James knows that it doesn't always work and, in reality, some people might find it strange.
-* James would love to have more opportunities to talk to senior people about advancing his career in general and about potentially moving to a different line of work within the organisation.
-* He also loves learning from others and wishes there was a way to casually meet up wit differnt specialists across the organisation, be that to ask some specific questions about an introductory programming course he is taking or just see what the work is like in the rest of the organisation.
-* James goes for lunchtime jogs or gym classes from time to time and would like to have an exercise buddy, but none of his colleagues are interested in exercising at lunchtime.
-
-
-
-The proposed app will address James's issues as follows:
-o Detail your app will satisfy the need/aid the persona, by making references to the specific features and functionalities you’ve included.
 
