@@ -37,16 +37,16 @@ Based on PACT analysis, our target persona looks something like this:
     <th>App functionality to address it</th>
   </tr>
   <tr>
-    <td>James doesn't have a way of approaching someone he doesn't know and asking them to get lunch - some people might find it strange.</td><td>solution 1</td>
+    <td>James doesn't have a way of approaching someone he doesn't know at work and asking them to get lunch - some people might find it strange.</td><td>Pickle will pair James with another person or a group of people who are also looking for company.</td>
   </tr>
   <tr>
-    <td>James would love to have more opportunities to talk to senior people about advancing his career.</td><td>problem 2</td>
+    <td>James would love to have more opportunities to talk to senior people about advancing his career.</td><td>Pickle has options to specify your level of seniority (in years of work) and, similarly, to select who you would like to meet.</td>
   </tr>
   <tr>
-    <td>James loves learning from others and wishes there was a way to casually meet up wit differnt specialists across the organisation, be that to ask some specific questions or just see what the work is like in the rest of the organisation.</td><td>solution 3</td>
+    <td>James loves learning from others and wishes there was a way to casually meet up wit differnt specialists across the organisation, be that to ask some specific questions or just see what the work is like in the rest of the organisation.</td><td>Pickle lets you specify the purpose of your meeting (e.g. specialis question or networking)</td>
   </tr>
   <tr>
-    <td>James goes for lunchtime jogs or gym classes from time to time and would like to have a lunchtime exercise buddy, but he doesn't know anyone interested.</td><td>sol 4</td>
+    <td>James goes for lunchtime jogs or gym classes from time to time and would like to have a lunchtime exercise buddy, but he doesn't know anyone interested.</td><td>Pickle isn't limited to finding food buddies - you can specify you are looking for someone to join you for exercise.</td>
   </tr>
 </table>
 
