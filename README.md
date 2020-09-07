@@ -57,4 +57,4 @@ Based on PACT analysis, our target persona looks something like this:
 * In-app messaging
 * A lunchtime window - the app should only function between 12pm-2pm to make it more lunchtime-specific and exciting for the users
 * A feature to schedule another catch-up with the same person
-
+* Use Office 365 to conenct to your organisation's user profiles
