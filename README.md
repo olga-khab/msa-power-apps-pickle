@@ -59,6 +59,8 @@ Based on PACT analysis, our target persona looks something like this:
 * A feature to schedule another catch-up with the same person
 * Use Office 365 to conenct to your organisation's user profiles
 * a map and cafe API
+* Accessibility
+* Adding a check back later/push notification for when the match is found
 
 ## Acknowledgements
 <div>Icons in this app were made by <a href="https://www.flaticon.com/authors/mynamepong" title="mynamepong">mynamepong</a>, <a href="https://www.flaticon.com/authors/flat-icons" title="Flat Icons">Flat Icons</a>, <a href="https://www.flaticon.com/authors/ultimatearm" title="ultimatearm">ultimatearm</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a></div>
