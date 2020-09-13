@@ -43,10 +43,10 @@ Based on PACT analysis, our target persona looks something like this:
     <td>James would love to have more opportunities to talk to senior people about advancing his career.</td><td>Pickle has options to specify your level of seniority (in years of work) and, similarly, to select who you would like to meet.</td>
   </tr>
   <tr>
-    <td>James loves learning from others and wishes there was a way to casually meet up with differnt specialists across the organisation, be that to ask some specific questions or just see what the work is like in the rest of the organisation.</td><td>Pickle lets you specify your business unit and select a particular business unit you are looking to meet people from</td>
+    <td>James loves learning from others and wishes there was a way to casually meet up with differnt specialists across the organisation, be that to ask some specific questions or just see what the work is like in the rest of the organisation.</td><td>Pickle lets you specify your business unit and select a particular business unit you are looking to meet people from.</td>
   </tr>
   <tr>
-    <td>James goes for lunchtime jogs or gym classes from time to time and would like to have a lunchtime exercise buddy, but he doesn't know anyone interested.</td><td>Pickle isn't limited to finding food buddies - you can specify you are looking for someone to join you for exercise.</td>
+    <td>James goes for lunchtime jogs or gym classes from time to time and would like to have a lunchtime exercise buddy, but he doesn't know anyone interested.</td><td>Pickle isn't limited to finding food buddies - you can specify that you are looking for someone to join you for exercise.</td>
   </tr>
 </table>
 
