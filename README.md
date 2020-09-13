@@ -63,7 +63,7 @@ Based on PACT analysis, our target persona looks something like this:
 * Adding a check back later/push notification for when the match is found
 * more sophisticated matching - eg allow to select different business units
 * ability to filter out seniorities 
-* send email in-app - this was not possible due to student subscription but is very easy to implement
+* send email in-app and also email the person in the database to inform of the match - this was not possible due to student subscription but is very easy to implement
 
 ## Acknowledgements
 <div>Icons in this app were made by <a href="https://www.flaticon.com/authors/mynamepong" title="mynamepong">mynamepong</a>, <a href="https://www.flaticon.com/authors/flat-icons" title="Flat Icons">Flat Icons</a>, <a href="https://www.flaticon.com/authors/ultimatearm" title="ultimatearm">ultimatearm</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a></div>
