@@ -37,7 +37,7 @@ Based on PACT analysis, our target persona looks something like this:
     <th>App functionality to address it</th>
   </tr>
   <tr>
-    <td>James doesn't have a way of approaching someone he doesn't know at work and asking them to get lunch - some people might find it strange.</td><td>Pickle will pair James with another person or a group of people who are also looking for company.</td>
+    <td>James doesn't have a way of approaching someone he doesn't know at work and asking them to get lunch - some people might find it strange.</td><td>Pickle will pair James with another person or a group of people who are also looking for company. The group pairing feature is still under development.</td>
   </tr>
   <tr>
     <td>James would love to have more opportunities to talk to senior people about advancing his career.</td><td>Pickle has options to specify your level of seniority (in years of work) and, similarly, to select who you would like to meet.</td>
