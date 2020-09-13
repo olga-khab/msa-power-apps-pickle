@@ -50,6 +50,19 @@ Based on PACT analysis, our target persona looks something like this:
   </tr>
 </table>
 
+## Data sources
+There are two dynamic data sources in the app, stored as Excel workbooks in OneDrive. The first, **Business Ares**, is a list of business areas of the company - it can be easily changed by a participating company to reflect the organisational structure; The second dataset. **Participants**, contains the details of users: choice of activity (qick coffee break, lunch or exercise), choice of how many buddies they want, their business unit and the business unit they would like to meet people from, their seniority (in years of work) and the seniority of people they would like to meet. When a new user enters their preferences, these are matched against the records in the database. If there is a match, the matching record is retrieved and removed from the database. If there are no matches, the new user record is added to the database for future matching.
+
+To enable the complex data manipulations and allow the users to change their prefeernces before writing to the database, the app utilises a number Collections.
+
+## Matching and messaging
+When finding a buddy, the perfect matching is desired but is no always possible. Partial matching i senabled by prioritising user preferences:
+* Choice of activity and Seniority are prioritised first - they have to match perfectly (i.e. the user's seniority has to be another user's desired seniority for the pairing to occur at all)
+* Business unit is prioritised next
+* Number of buddies is prioritised last; if there is no perfect match, the algorithm looks for matches without considering the desired number of buddies. If there is still no match, it tries without business unit preferences
+
+Once matched, Pickle utilises Power Automate to enable the users to email their buddies straight from the app.
+
 ## App extensibility
 ### Scalability
 
