@@ -58,12 +58,12 @@ Based on PACT analysis, our target persona looks something like this:
 * A lunchtime window - the app should only function between 12pm-2pm to make it more lunchtime-specific and exciting for the users
 * A feature to schedule another catch-up with the same person
 * Use Office 365 to conenct to your organisation's user profiles
-* a map and cafe API
+* A map and cafe API
 * Accessibility
 * Adding a check back later/push notification for when the match is found
-* more sophisticated matching - eg allow to select different business units
-* ability to filter out seniorities 
-* send email in-app and also email the person in the database to inform of the match - this was not possible due to student subscription but is very easy to implement
+* More sophisticated matching - eg allow to select different business units
+* Ability to filter out seniorities 
+* Send emails in-app and also email the person in the database to inform of the match - this was not possible due to student subscription but is very easy to implement
 
 ## Acknowledgements
 <div>Icons in this app were made by <a href="https://www.flaticon.com/authors/mynamepong" title="mynamepong">mynamepong</a>, <a href="https://www.flaticon.com/authors/flat-icons" title="Flat Icons">Flat Icons</a>, <a href="https://www.flaticon.com/authors/ultimatearm" title="ultimatearm">ultimatearm</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a></div>
