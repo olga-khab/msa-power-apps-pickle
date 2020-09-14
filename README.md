@@ -59,24 +59,26 @@ To enable the complex data manipulations and allow the users to change their pre
 When finding a buddy, the perfect matching is desired but is no always possible. Partial matching i senabled by prioritising user preferences:
 * Choice of activity and Seniority are prioritised first - they have to match perfectly (i.e. the user's seniority has to be another user's desired seniority for the pairing to occur at all)
 * Business unit is prioritised next
-* Number of buddies is prioritised last; if there is no perfect match, the algorithm looks for matches without considering the desired number of buddies. If there is still no match, it tries without business unit preferences
+* Number of buddies is prioritised last
+
+If there is no perfect match, the algorithm looks for matches without considering the desired number of buddies. If there is still no match, it tries without business unit preferences. It returns the first matching record, meaning that those who have been waiting for longer get matched first.
 
 Once matched, Pickle utilises Power Automate to enable the users to email their buddies straight from the app.
 
 ## App extensibility
 ### Scalability
+The most important aspect of ensuring that the app can support a growing number of users it switching to a more robust data storage method, e.g. an Azure SQL database. SQL data manipulation is much faster than in Excel and the speed will become crucial with increasing number of records that have to be matched and more complex matching needs. Having a fully managed cloud database also enables scaling on-demand.
+
+The matching process itself is the most computationally-heavy part. At the moment, the matching is basic and is done in O(m\*n) time, where m is the number of features to match on and n is the number of users, but a more effcient data structure and the matching process will be needed to fully implement multi-person and multi-business-unit matching and maintain a reasonanable speed and UX as the number of users and matching features grows. That said, the matching should be kept simple to avoid exessive personalisation and dating-like experience, as the primary function of the app is to pair people in a professional context to do things at lunchtime.
+
+Pickle is currently a business version of the broader app I am planning to make. On the bigger scale, Pickle will enable anyone to look for lunchtime buddies buddies. This means that the business unit and seniority preferences will be replaces with something more general like industry/professional interest or age gap. Neither version of the app will involve user photos or other personal details.
 
 ### Future feature improvements
-* In-app messaging
+* An in-chat messenger feature instead of emailing - this is entirely possible in Power Apps. The user should also recieve a push notification when the match occurs.
 * A lunchtime window - the app should only function between 12pm-2pm to make it more lunchtime-specific and exciting for the users
-* A feature to schedule another catch-up with the same person
-* Use Office 365 to conenct to your organisation's user profiles
-* A map and cafe API
-* Accessibility
-* Adding a check back later/push notification for when the match is found
-* More sophisticated matching - eg allow to select different business units
-* Ability to filter out seniorities 
-* Send emails in-app and also email the person in the database to inform of the match - this was not possible due to student subscription but is very easy to implement
+* To make it more interesting, the user could specify a particular cusine that they want. A map API would allow them to browse nearby places and suggest these to their match
+* More sophisticated matching; the users should be able to emphasize the most important matching conditions, e.g. instead of selecting seniorities, the user could filter out the seniorities they don't want or specify that, e.g. the business unit has to match perfectly; the group matching feature is also currently under development
+* General accessibility
 
 ## Acknowledgements
 <div>Icons in this app were made by <a href="https://www.flaticon.com/authors/mynamepong" title="mynamepong">mynamepong</a>, <a href="https://www.flaticon.com/authors/flat-icons" title="Flat Icons">Flat Icons</a>, <a href="https://www.flaticon.com/authors/ultimatearm" title="ultimatearm">ultimatearm</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a></div>
