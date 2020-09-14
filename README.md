@@ -21,6 +21,10 @@ That is, if there is no perfect match, the algorithm looks for matches without c
 
 Once matched, Pickle utilises Power Automate to enable the users to email their buddies straight from the app. Note that the email will come from my personal account due to Power Automate requirements - in practice the app would be linked to a Pickle inbox.
 
+<p align="center">
+  <img src="images/EmailScreen.png" height="410" alt="App screen showing your match and option to email them">
+</p>
+
 ## Investigating target users and problem context with PACT analysis
 To study the context of the proposed app and try to understand target users, it is best to use a structured framework like PACT (see [here](http://hci.ilikecake.ie/requirements/pact.htm) for details). PACT framework suggests the app is discussed in the context of **P**eople (target users), relevant **A**ctivities those people undertake, **C**ontext of such activities and **T**echnologies used. I omitted the full analysis to keep this brief but the guiding questions I tried to answer include:
 
