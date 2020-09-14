@@ -61,7 +61,7 @@ When finding a buddy, the perfect matching is desired but is no always possible.
 * Business unit is prioritised next
 * Number of buddies is prioritised last
 
-If there is no perfect match, the algorithm looks for matches without considering the desired number of buddies. If there is still no match, it tries without business unit preferences. If there is no match at all, the user can request for their details to be saved to the database for future matchnig or to tweak their preferences. When a match is found, the algorithm returns the first matching record, meaning that those who have been waiting for longer get matched first.
+If there is no perfect match, the algorithm looks for matches without considering the desired number of buddies. If there is still no match, it tries without business unit preferences. If there is no match at all, the user can request for their details to be saved to the database for future matchnig (replaceing any existing records of that user) or to tweak their preferences. When a match is found, the algorithm returns the first matching record, meaning that those who have been waiting for longer get matched first.
 
 Once matched, Pickle utilises Power Automate to enable the users to email their buddies straight from the app.
 
