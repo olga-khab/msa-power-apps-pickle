@@ -5,7 +5,7 @@
 </p>
 
 ## About
-Pickle is a lunchtime buddy finder/casual networking Power App for those who work in large organisations and what to meet new people from different departments or are simply looking for a lunchtime jog buddy. Finding a buddy is a 3-step process: you choose what you want a buddy for (quick coffee, lunch or exercise), specify your business unit and a business unit you want to meet people from and also your level of seniority (in years) and desired seniority. If you're not fussed about BU and seniority, you can select "Anyone" for these options. The option to match with multiple people is currently under development.
+Pickle is a lunchtime buddy finder/casual networking Power App for those who work in large organisations and want to meet new people from different departments or are simply looking for a lunchtime jog buddy. Finding a buddy is a 3-step process: you choose what you want a buddy for (quick coffee, lunch or exercise), specify your business unit and a business unit you want to meet people from and also your level of seniority (in years) and desired seniority. If you're not fussed about BU and seniority, you can select "Anyone" for these options. The option to match with multiple people is currently under development.
 
 <p align="center">
   <img src="images/AppCollage.png" width="550" alt="three app screens: choice of activity, choice of business unit and choice of seniority">
