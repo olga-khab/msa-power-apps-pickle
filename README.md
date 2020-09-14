@@ -23,7 +23,7 @@ To study the context of the proposed app and try to understand target users, it 
 * Are these activities memorable? Are they done often?
 * What is the social and organisational context of these tasks? How are similar tasks handled in the workplace - this is particularly important to discuss for a social app.
 
-## Target persona
+### Target persona
 Ideally, the process of creating a persona would involve the target users themselves, for example through surveys and user stories. At this stage, this is not possible but any further development should definitely involve a more user-centric approach.
 
 Based on PACT analysis, our target persona looks something like this:
@@ -83,7 +83,7 @@ The most important aspect of ensuring that the app can support a growing number 
 
 The matching process itself is the most computationally-heavy part. At the moment, the matching is basic and is done in O(m\*n) time, where m is the number of features to match on and n is the number of users. A more efficient data structure and matching process will be needed to fully implement multi-person and multi-business-unit matching and maintain a reasonable speed and UX as the number of users and matching features grows. That said, the matching should be kept simple to avoid excessive personalisation and dating-like experience, as the primary function of the app is to pair people in a professional context to do things at lunchtime.
 
-Pickle is currently a business version of the broader app I am planning to make. On the larger scale, Pickle will enable anyone to look for lunchtime buddies. This means that the business unit and seniority preferences will be replaced with something more general, like industry/professional interest, age bracket, location and preferred places to eat. Neither version of the app will involve user photos or a lot of personal details, as the app is not intended for dating purposes.
+Pickle is a business version of the broader app I am planning to make. On the larger scale, Pickle will enable anyone to look for lunchtime buddies. This means that the business unit and seniority preferences will be replaced with something more general, like industry/professional interest, age bracket, location and preferred places to eat. Neither version will involve user photos or a lot of personal details, as the app is not intended for dating purposes and should remain wholesome. A potential next step would be to create a university version - in this case business units could be replaced with degrees (degree lists would be specific to each University or college).
 
 ### Future feature improvements
 Some of the features that will be implemented in future iterations include: 
