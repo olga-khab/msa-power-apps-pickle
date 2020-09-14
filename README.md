@@ -1,5 +1,8 @@
-![Pickle logo](pickles.png){:height="50%" width="50%"} 
 # Pickle Power App
+
+<p align="left">
+  <img src="pickles.png" width="150" alt="a jar of pickles, green pickles in orange brine">
+</p>
 
 ## About
 Pickle is a lucnhtime buddy finder/casulal networking Power App for those who work in big organisations and what to meet new people from different depratmernts or are simply looking for a lunchtime jog buddy.
