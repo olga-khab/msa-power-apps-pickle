@@ -71,7 +71,7 @@ The most important aspect of ensuring that the app can support a growing number 
 
 The matching process itself is the most computationally-heavy part. At the moment, the matching is basic and is done in O(m\*n) time, where m is the number of features to match on and n is the number of users, but a more effcient data structure and the matching process will be needed to fully implement multi-person and multi-business-unit matching and maintain a reasonanable speed and UX as the number of users and matching features grows. That said, the matching should be kept simple to avoid exessive personalisation and dating-like experience, as the primary function of the app is to pair people in a professional context to do things at lunchtime.
 
-Pickle is currently a business version of the broader app I am planning to make. On the bigger scale, Pickle will enable anyone to look for lunchtime buddies buddies. This means that the business unit and seniority preferences will be replaces with something more general like industry/professional interest or age gap. Neither version of the app will involve user photos or other personal details.
+Pickle is currently a business version of the broader app I am planning to make. On the bigger scale, Pickle will enable anyone to look for lunchtime buddies buddies. This means that the business unit and seniority preferences will be replaces with something more general like industry/professional interest, age bracket, location and preferred places to eat. Neither version of the app will involve user photos or a lot of personal details, as the app is not intended for dating purposes.
 
 ### Future feature improvements
 Some of the features that will be implemented in future iterations include: 
