@@ -1,7 +1,7 @@
 # Pickle Power App
 
 <p align="left">
-  <img src="pickles.png" width="150" alt="a jar of pickles, green pickles in orange brine">
+  <img src="images/pickles.png" width="150" alt="a jar of pickles, green pickles in orange brine">
 </p>
 
 ## About
@@ -30,7 +30,7 @@ Based on PACT analysis, our target persona looks something like this:
     <th>Description</th>
   </tr>
   <tr>
-    <td><img src="stock-photo-young-professional.jpg" alt="stock photo of a young professional"></td>
+    <td><img src="images/stock-photo-young-professional.jpg" alt="stock photo of a young professional"></td>
     <td>James, 25, is a junior marketing specialist at a large tech company in Sydney. He has been at this company for three years, ever since he graguated.  James is tech-savvy and spends a lot of time on his phone. He checks Facebook, Instagram and LinkedIn daily on his smartphone on the way to work, during the day when he gets bored and in the evening. From time to time, he uses dating apps; he's tried both Tinder and Bumble. Internally, he uses Teams and Yammer, mainly to discuss work and contact people he doesn't know personally to ask specialist questions. He likes the simplicity of these interfaces and finds it easy to remember what to do when he hasn't used them in a long time (especially with the occasional use apps). James socialises with his colleagues regularly, ususally by grabbing a coffe after the morning standup and occasionally over lunch. He likes to chat to his immediate teammates during the day and always attends lunch-and-learns when he has the time.</td>
   </tr>
   <tr>
