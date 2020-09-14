@@ -5,7 +5,17 @@
 </p>
 
 ## About
-Pickle is a lunchtime buddy finder/casual networking Power App for those who work in big organisations and what to meet new people from different departments or are simply looking for a lunchtime jog buddy.
+Pickle is a lunchtime buddy finder/casual networking Power App for those who work in large organisations and what to meet new people from different departments or are simply looking for a lunchtime jog buddy. Finding a buddy is a 3-step process: you choose what you want a buddy for (quick coffee, lunch or exercise), specify your business unit and a business unit you want to meet people from and also your level of seniority (in years) and desired seniority. If you're not fussed about BU and seniority, you can select "Anyone" for these options. The option to match with multiple people is currently under development.
+
+## Matching and messaging
+When finding a buddy, the perfect matching is desired but is not always possible. Partial matching is enabled by prioritising user preferences:
+* Choice of activity and Seniority are prioritised first - they have to match perfectly (i.e. the user's seniority has to be another user's desired seniority for the pairing to occur at all)
+* Business unit is prioritised next
+* Number of buddies is prioritised last
+
+That is, if there is no perfect match, the algorithm looks for matches without considering the desired number of buddies. If there is still no match, it tries without business unit preferences. If there is no match at all, the user can request for their details to be saved to the database for future matching (replacing any existing records of that user) or to tweak their preferences. When a match is found, the algorithm returns the first matching record, meaning that those who have been waiting for longer get matched first.
+
+Once matched, Pickle utilises Power Automate to enable the users to email their buddies straight from the app. Note that the email will come from my personal account due to Power Automate requirements - in practice the app would be linked to a Pickle inbox.
 
 ## Investigating target users and problem context with PACT analysis
 To study the context of the proposed app and try to understand target users, it is best to use a structured framework like PACT (see [here](http://hci.ilikecake.ie/requirements/pact.htm) for details). PACT framework suggests the app is discussed in the context of **P**eople (target users), relevant **A**ctivities those people undertake, **C**ontext of such activities and **T**echnologies used. I omitted the full analysis to keep this brief but the guiding questions I tried to answer include:
@@ -59,31 +69,21 @@ There are two dynamic data sources in the app, stored as Excel workbooks in OneD
 
 To enable the complex data manipulations and allow the users to change their preferences before writing to the database, the app utilises a number of Collections.
 
-## Matching and messaging
-When finding a buddy, the perfect matching is desired but is not always possible. Partial matching is enabled by prioritising user preferences:
-* Choice of activity and Seniority are prioritised first - they have to match perfectly (i.e. the user's seniority has to be another user's desired seniority for the pairing to occur at all)
-* Business unit is prioritised next
-* Number of buddies is prioritised last
-
-If there is no perfect match, the algorithm looks for matches without considering the desired number of buddies. If there is still no match, it tries without business unit preferences. If there is no match at all, the user can request for their details to be saved to the database for future matching (replacing any existing records of that user) or to tweak their preferences. When a match is found, the algorithm returns the first matching record, meaning that those who have been waiting for longer get matched first.
-
-Once matched, Pickle utilises Power Automate to enable the users to email their buddies straight from the app.
-
 ## App extensibility
 ### Scalability
-The most important aspect of ensuring that the app can support a growing number of users it switching to a more robust data storage method, e.g. an Azure SQL database. SQL data manipulation is much faster than in Excel and the speed will become crucial with an increasing number of records that have to be matched and more complex matching needs. Having a fully managed cloud database also enables scaling on-demand.
+The most important aspect of ensuring that the app can support a growing number of users is switching to a more robust data storage method, e.g. an Azure SQL database. SQL data manipulation is much faster than in Excel and the speed will become crucial with an increasing number of records that have to be matched and more complex matching needs. Having a fully managed cloud database also enables scaling on-demand.
 
-The matching process itself is the most computationally-heavy part. At the moment, the matching is basic and is done in O(m\*n) time, where m is the number of features to match on and n is the number of users, but a more efficient data structure and the matching process will be needed to fully implement multi-person and multi-business-unit matching and maintain a reasonable speed and UX as the number of users and matching features grows. That said, the matching should be kept simple to avoid excessive personalisation and dating-like experience, as the primary function of the app is to pair people in a professional context to do things at lunchtime.
+The matching process itself is the most computationally-heavy part. At the moment, the matching is basic and is done in O(m\*n) time, where m is the number of features to match on and n is the number of users. A more efficient data structure and matching process will be needed to fully implement multi-person and multi-business-unit matching and maintain a reasonable speed and UX as the number of users and matching features grows. That said, the matching should be kept simple to avoid excessive personalisation and dating-like experience, as the primary function of the app is to pair people in a professional context to do things at lunchtime.
 
-Pickle is currently a business version of the broader app I am planning to make. On the bigger scale, Pickle will enable anyone to look for lunchtime buddies. This means that the business unit and seniority preferences will be replaced with something more general like industry/professional interest, age bracket, location and preferred places to eat. Neither version of the app will involve user photos or a lot of personal details, as the app is not intended for dating purposes.
+Pickle is currently a business version of the broader app I am planning to make. On the larger scale, Pickle will enable anyone to look for lunchtime buddies. This means that the business unit and seniority preferences will be replaced with something more general, like industry/professional interest, age bracket, location and preferred places to eat. Neither version of the app will involve user photos or a lot of personal details, as the app is not intended for dating purposes.
 
 ### Future feature improvements
 Some of the features that will be implemented in future iterations include: 
 * An in-chat messenger feature instead of emailing - this is entirely possible in Power Apps. The user should also receive a push notification when the match occurs.
-* A lunchtime window - the app should only function between 12pm-2pm to make it more lunchtime-specific and exciting for the users
-* To make it more interesting, the user could specify a particular cuisine that they want. A map API would allow them to browse nearby places and suggest these to their match
-* More sophisticated matching; the users should be able to emphasize the most important matching conditions, e.g. instead of selecting seniorities, the user could filter out the seniorities they don't want or specify that e.g. the business unit has to match perfectly; the group matching feature is also currently under development
-* General accessibility - Pickle has accessible labels and meets WCAG Level AAA contrast requirements. In future iterations, it is important to ensure compliance with other aspects of WCAG and implement alternative colour themes for people with colourblindness
+* A lunchtime window - the app should only function between 12pm-2pm to make it more lunchtime-specific and exciting for the users.
+* To make it more interesting, the user could specify a particular cuisine that they want. A map API would allow them to browse nearby places and suggest these to their match.
+* More sophisticated matching; the users should be able to emphasize the most important matching conditions, e.g. instead of selecting seniorities, the user could filter out the seniorities they don't want or specify that e.g. the business unit has to match perfectly; the group matching feature is also currently under development.
+* General accessibility - Pickle has accessible labels and meets WCAG Level AAA contrast requirements. In future iterations, it is important to ensure compliance with other aspects of WCAG and implement alternative colour themes for people with colourblindness.
 
 ## Acknowledgements
 <div>Icons in this app were made by <a href="https://www.flaticon.com/authors/mynamepong" title="mynamepong">mynamepong</a>, <a href="https://www.flaticon.com/authors/flat-icons" title="Flat Icons">Flat Icons</a>, <a href="https://www.flaticon.com/authors/ultimatearm" title="ultimatearm">ultimatearm</a> and <a href="https://www.flaticon.com/authors/surang" title="surang">surang</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a></div>
