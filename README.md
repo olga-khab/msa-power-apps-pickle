@@ -11,20 +11,6 @@ Pickle is a lunchtime buddy finder/casual networking Power App for those who wor
   <img src="images/AppCollage.png" width="550" alt="three app screens: choice of activity, choice of business unit and choice of seniority">
 </p>
 
-## Matching and messaging
-When finding a buddy, the perfect matching is desired but is not always possible. Partial matching is enabled by prioritising user preferences:
-* Choice of activity and Seniority are prioritised first - they have to match perfectly (i.e. the user's seniority has to be another user's desired seniority for the pairing to occur at all)
-* Business unit is prioritised next
-* Number of buddies is prioritised last
-
-That is, if there is no perfect match, the algorithm looks for matches without considering the desired number of buddies. If there is still no match, it tries without business unit preferences. If there is no match at all, the user can request for their details to be saved to the database for future matching (replacing any existing records of that user) or to tweak their preferences. When a match is found, the algorithm returns the first matching record, meaning that those who have been waiting for longer get matched first.
-
-Once matched, Pickle utilises Power Automate to enable the users to email their buddies straight from the app. Note that the email will come from my personal account due to Power Automate requirements - in practice the app would be linked to a Pickle inbox.
-
-<p align="center">
-  <img src="images/EmailScreen.png" height="410" alt="App screen showing your match and option to email them">
-</p>
-
 ## Investigating target users and problem context with PACT analysis
 To study the context of the proposed app and try to understand target users, it is best to use a structured framework like PACT (see [here](http://hci.ilikecake.ie/requirements/pact.htm) for details). PACT framework suggests the app is discussed in the context of **P**eople (target users), relevant **A**ctivities those people undertake, **C**ontext of such activities and **T**echnologies used. I omitted the full analysis to keep this brief but the guiding questions I tried to answer include:
 
@@ -76,6 +62,20 @@ Based on PACT analysis, our target persona looks something like this:
 There are two dynamic data sources in the app, stored as Excel workbooks in OneDrive. The first, **Business Ares**, is a list of business areas of the company - it can be easily changed by a participating company to reflect the organisational structure. The second dataset, **Participants**, contains the details of users: choice of activity (quick coffee break, lunch or exercise), choice of how many buddies they want, their business unit and the business unit they would like to meet people from, their seniority (in years of work) and the seniority of people they would like to meet. When a new user enters their preferences, these are matched against the records in the database. 
 
 To enable the complex data manipulations and allow the users to change their preferences before writing to the database, the app utilises a number of Collections.
+
+## Matching and messaging
+When finding a buddy, the perfect matching is desired but is not always possible. Partial matching is enabled by prioritising user preferences:
+* Choice of activity and Seniority are prioritised first - they have to match perfectly (i.e. the user's seniority has to be another user's desired seniority for the pairing to occur at all)
+* Business unit is prioritised next
+* Number of buddies is prioritised last
+
+That is, if there is no perfect match, the algorithm looks for matches without considering the desired number of buddies. If there is still no match, it tries without business unit preferences. If there is no match at all, the user can request for their details to be saved to the database for future matching (replacing any existing records of that user) or to tweak their preferences. When a match is found, the algorithm returns the first matching record, meaning that those who have been waiting for longer get matched first.
+
+Once matched, Pickle utilises Power Automate to enable the users to email their buddies straight from the app. Note that the email will come from my personal account due to Power Automate requirements - in practice the app would be linked to a Pickle inbox.
+
+<p align="center">
+  <img src="images/EmailScreen.png" height="410" alt="App screen showing your match and option to email them">
+</p>
 
 ## App extensibility
 ### Scalability
