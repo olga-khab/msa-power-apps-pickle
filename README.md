@@ -74,6 +74,7 @@ The matching process itself is the most computationally-heavy part. At the momen
 Pickle is currently a business version of the broader app I am planning to make. On the bigger scale, Pickle will enable anyone to look for lunchtime buddies buddies. This means that the business unit and seniority preferences will be replaces with something more general like industry/professional interest or age gap. Neither version of the app will involve user photos or other personal details.
 
 ### Future feature improvements
+Some of the features that will be implemented in future iterations include: 
 * An in-chat messenger feature instead of emailing - this is entirely possible in Power Apps. The user should also recieve a push notification when the match occurs.
 * A lunchtime window - the app should only function between 12pm-2pm to make it more lunchtime-specific and exciting for the users
 * To make it more interesting, the user could specify a particular cusine that they want. A map API would allow them to browse nearby places and suggest these to their match
