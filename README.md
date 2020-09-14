@@ -79,7 +79,7 @@ Some of the features that will be implemented in future iterations include:
 * A lunchtime window - the app should only function between 12pm-2pm to make it more lunchtime-specific and exciting for the users
 * To make it more interesting, the user could specify a particular cusine that they want. A map API would allow them to browse nearby places and suggest these to their match
 * More sophisticated matching; the users should be able to emphasize the most important matching conditions, e.g. instead of selecting seniorities, the user could filter out the seniorities they don't want or specify that, e.g. the business unit has to match perfectly; the group matching feature is also currently under development
-* General accessibility - in the future iterations, it is important to ensure compliance with WCAG and implement alternative colour themes for people with colourblindness
+* General accessibility - Pickle has accessible labels and meets WCAG Level AAA contrast requirements. In future iterations, it is important to ensure compliance with other aspects of WCAG and implement alternative colour themes for people with colourblindness
 
 ## Acknowledgements
 <div>Icons in this app were made by <a href="https://www.flaticon.com/authors/mynamepong" title="mynamepong">mynamepong</a>, <a href="https://www.flaticon.com/authors/flat-icons" title="Flat Icons">Flat Icons</a>, <a href="https://www.flaticon.com/authors/ultimatearm" title="ultimatearm">ultimatearm</a> and <a href="https://www.flaticon.com/authors/surang" title="surang">surang</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a></div>
